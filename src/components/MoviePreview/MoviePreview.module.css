@@ -1,2 +1,48 @@
 .movieCard {
+    width : 50%;
+    display:flex;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 1px solid lightgrey;
+    background: #383838;
+}
+
+.movieCard:hover {
+    border-color: white;
+    cursor : pointer
+
+}
+
+.titleContainer {
+    text-align: center;
+    font-size: 16px;
+    padding : 25px
+}
+
+.titleContainer h1 {
+    margin: 0;
+}
+
+.movieCard img {
+    width : 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.stars{
+    justify-content: center;
+    margin-top:10px;
+    display:flex;
+    text-align: center;
+    font-size: 22px;
+}
+
+.yellowStar{
+    color: yellow;
+    margin-right: 5px;
+}
+
+.whiteStar{
+    color:white;
+    margin-right: 5px;
 }
